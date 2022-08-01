@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Exercise1\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2-CheckOddEven", "Exercise2-CheckOddEven\Exercise2-CheckOddEven.csproj", "{EA77C62C-6ABF-45B2-A1FA-7D4B3FFCBAFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4-Product1ToN", "Exercise4-Product1ToN\Exercise4-Product1ToN.csproj", "{30BBD8C4-95A6-4DE5-95DC-571DC07B8BA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EA77C62C-6ABF-45B2-A1FA-7D4B3FFCBAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA77C62C-6ABF-45B2-A1FA-7D4B3FFCBAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA77C62C-6ABF-45B2-A1FA-7D4B3FFCBAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BBD8C4-95A6-4DE5-95DC-571DC07B8BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BBD8C4-95A6-4DE5-95DC-571DC07B8BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BBD8C4-95A6-4DE5-95DC-571DC07B8BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BBD8C4-95A6-4DE5-95DC-571DC07B8BA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
