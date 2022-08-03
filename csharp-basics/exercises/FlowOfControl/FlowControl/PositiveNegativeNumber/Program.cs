@@ -8,21 +8,21 @@ namespace PositiveNegativeNumber
         {
             Console.WriteLine("Enter the number.");
             var input = Console.ReadKey();
-            /*
-            fixme
-            if (?)
+            
+            if (char.GetNumericValue(input.KeyChar) > 0)
             {
-                Console.WriteLine("Number is positive");
+                Console.WriteLine("\nNumber is positive");
             } 
-            else if (?) 
+            else if (char.GetNumericValue(input.KeyChar) < 0) 
             {
-                Console.WriteLine("Number is negative");
+                Console.WriteLine("\nNumber is negative");
             } 
             else 
             {
-                Console.WriteLine("Number is zero");
+                Console.WriteLine("\nNumber is zero");
             }
-            */
+            
+            Console.ReadKey();
         }
     }
 }
