@@ -18,6 +18,7 @@ namespace Exercise1
 
             Console.ReadKey();
         }
+
         static int[] GetUserValues()
         {
             int[] bothValues = {0, 0};
@@ -30,6 +31,7 @@ namespace Exercise1
                     Console.WriteLine("How did you mess this up?! Enter a valid number!");
                 }
             }
+
             return bothValues;
         }
     }
