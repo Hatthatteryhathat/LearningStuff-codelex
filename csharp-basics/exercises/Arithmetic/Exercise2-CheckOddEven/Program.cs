@@ -16,7 +16,7 @@ namespace Exercise2_CheckOddEven
 
         static int GetNumberToCheck()
         {
-            int valueToCheck;
+            int valueToCheck = 0;
             Console.Write("Enter a number :: \n ");
 
             while (!int.TryParse(Console.ReadLine(), out valueToCheck))
