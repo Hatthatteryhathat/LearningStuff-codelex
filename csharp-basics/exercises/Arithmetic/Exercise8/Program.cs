@@ -14,6 +14,7 @@ namespace Exercise8
             };
 
             Console.WriteLine("Name ----- BasePay - HoursWorked - TotalPay");
+
             for (int i = 0; i < employees.GetLength(0); i++)
             {
                     Console.WriteLine($"{employees[i,0]} || ${employees[i,1]} || {employees[i,2]} ||" +
@@ -33,10 +34,12 @@ namespace Exercise8
             {
                 return "Error: Employee earning below minimum wage!";
             }
+
             if (hoursWorked > 60) 
             {
                 return "Error: Employee working over 60 hours a week!";
             }
+
             if (hoursWorked > 40) 
             {
                 return $"${(basePay * 40) + (basePay * bonusForOvetimeWork) * (hoursWorked - 40)}";
