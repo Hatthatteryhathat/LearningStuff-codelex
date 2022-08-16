@@ -15,7 +15,8 @@ namespace Exercise9
             if (bodyMassIndex >= 18.5 && bodyMassIndex <= 25)
             {
                 Console.WriteLine("Congrats! Your BMI is optimal!");
-            } else if (bodyMassIndex < 18.5) 
+            } 
+            else if (bodyMassIndex < 18.5) 
             {
                 Console.WriteLine("Oh no! You're underweight!");
             }
