@@ -17,7 +17,7 @@ namespace Exercise11
 
             if (numberToTest % sumOfSplitDigits == 0)
             {
-                if (TestIfPrime(numberToTest / sumOfSplitDigits))
+                if (IsPrime(numberToTest / sumOfSplitDigits))
                 {
                     Console.WriteLine("M");
                 }
@@ -34,7 +34,7 @@ namespace Exercise11
             Console.ReadKey();
         }
 
-        public static bool TestIfPrime(int number) 
+        public static bool IsPrime(int number) 
         {
             int  halfOfNumber = 0;
             halfOfNumber = number / 2;
