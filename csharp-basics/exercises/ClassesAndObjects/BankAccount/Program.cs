@@ -10,6 +10,10 @@ namespace BankAccount
     {
         static void Main(string[] args)
         {
+            Account benben = new Account("Benson", 17.25m);
+
+            Console.WriteLine(benben.ShowUserNameAndBalance());
+            Console.ReadKey();
         }
     }
 }
