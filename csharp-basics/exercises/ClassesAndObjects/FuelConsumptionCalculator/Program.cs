@@ -8,13 +8,13 @@ namespace FuelConsumptionCalculator
 {
     class Program
     {
+        public static double currentOdoValue;
+        public static double litersSpent;
+        public static bool isRunTest = true;
+
         private static void Main(string[] args)
         {
-            double currentOdoValue;
-            double litersSpent;
-            bool runTest = true;
-
-            if (runTest)
+            if (isRunTest)
             {
                 Test();
             }
@@ -34,12 +34,7 @@ namespace FuelConsumptionCalculator
                 switch ((int)char.GetNumericValue(Console.ReadKey().KeyChar))
                 {
                     case 1:
-                        Console.Write("\nEnter current odometer reading: ");
-                        currentOdoValue = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Enter liters spent since last FillUp : ");
-                        litersSpent = Convert.ToInt32(Console.ReadLine());
-                        car.FillUp(currentOdoValue, litersSpent);
-
+                        FillUp(car);
                         break;
 
                     case 2:
@@ -64,6 +59,15 @@ namespace FuelConsumptionCalculator
 
                 Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-");
             }
+        }
+
+        public static void FillUp(Car car)
+        {
+            Console.Write("\nEnter current odometer reading: ");
+            currentOdoValue = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter liters spent since last FillUp : ");
+            litersSpent = Convert.ToInt32(Console.ReadLine());
+            car.FillUp(currentOdoValue, litersSpent);
         }
 
         public static void Test()
