@@ -8,11 +8,10 @@ namespace Exercise12
 {
     internal interface ITestPaper
     {
-        public string Subject { get; }
+        string Subject { get; }
 
-        public string[] MarkScheme { get; }
+        string[] MarkScheme { get; }
 
-        public string PassMark { get; }
-
+        string PassMark { get; }
     }
 }
