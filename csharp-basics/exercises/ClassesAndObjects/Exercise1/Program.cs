@@ -7,7 +7,6 @@ namespace Exercise1
     {
         static void Main(string[] args)
         {
-
             List<Product> ProductList = new List<Product>();
 
             ProductList.Add( new Product("Logitech mouse", 70.00 , 14) );
