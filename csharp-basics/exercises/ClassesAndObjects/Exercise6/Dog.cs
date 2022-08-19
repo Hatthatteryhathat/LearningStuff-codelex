@@ -15,8 +15,8 @@ namespace Exercise6
 
         public Dog(string name , string sex) 
         {
-            this._name = name;
-            this._sex = sex;
+            _name = name;
+            _sex = sex;
         }
 
         public string GetFathersName() 
