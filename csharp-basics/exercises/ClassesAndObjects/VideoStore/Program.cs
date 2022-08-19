@@ -13,12 +13,13 @@ namespace VideoStore
 
         private static void Main(string[] args)
         {
-            bool test = true;
-            if (test) 
+            bool isRunTest = true;
+            if (isRunTest) 
             {
                 TestVideoStore();
                 Environment.Exit(0);
             }
+
             while (true)
             {
                 Console.Clear();
