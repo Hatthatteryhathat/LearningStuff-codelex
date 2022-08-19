@@ -33,10 +33,12 @@ namespace Exercise8
             {
                 return "Error: Employee earning below minimum wage!";
             }
+
             if (hoursWorked > 60) 
             {
                 return "Error: Employee working over 60 hours a week!";
             }
+
             if (hoursWorked > 40) 
             {
                 return $"${(basePay * 40) + (basePay * bonusForOvetimeWork) * (hoursWorked - 40)}";
