@@ -29,7 +29,7 @@ namespace Exercise4
 
             for (int i = 0; i < movieList.Count; i++) 
             {
-                if (movieList[i].rating == "PG") 
+                if (movieList[i].Rating == "PG") 
                 { 
                 pgMovies.Add(movieList[i]);
                 }

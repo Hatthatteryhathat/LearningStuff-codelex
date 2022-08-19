@@ -8,30 +8,32 @@ namespace Exercise4
 {
     internal class Movie
     {
-        public string title;
-        public string studio;
-        public string rating;
+        private string _title;
+        private string _studio;
+        private string _rating;
 
         public Movie(string movieTitle, string movieStudio, string movieRating)
         {
-            title = movieTitle;
-            studio = movieStudio;
-            rating = movieRating;
+            _title = movieTitle;
+            _studio = movieStudio;
+            _rating = movieRating;
         }
 
         public Movie(string movieTitle, string movieStudio) 
         {
-            title = movieTitle;
-            studio = movieStudio;
-            rating = "PG";
+            _title = movieTitle;
+            _studio = movieStudio;
+            _rating = "PG";
         }
 
         public void DisplayMovie() 
         {
-            Console.WriteLine(title);
-            Console.WriteLine(studio);
-            Console.WriteLine(rating);
+            Console.WriteLine(_title);
+            Console.WriteLine(_studio);
+            Console.WriteLine(_rating);
             Console.WriteLine("-=-=-=-=-=-=-=-");
         }
+
+        public string Rating => _rating;
     }
 }
