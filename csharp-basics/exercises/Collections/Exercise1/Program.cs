@@ -8,25 +8,23 @@ namespace Exercise1
 {
     class Program
     {
-        /**
-           * Origination:
-           * Audi -> Germany
-           * BMW -> Germany
-           * Honda -> Japan
-           * Mercedes -> Germany
-           * VolksWagen -> Germany
-           * Tesla -> USA
-           */
-
         private static void Main(string[] args)
         {
             string[] array = { "Audi", "BMW", "Honda", "Mercedes", "VolksWagen", "Mercedes", "Tesla" };
 
-            //todo - replace array with an List and print out the results
+            List<string> listyArray = new List<string>(array);
 
-            //todo - replace array with a HashSet and print out the results
+            HashSet<string> settyList = new HashSet<string>(array);
 
-            //todo - replace array with a Dictionary (use brand as key and origination as value) and print out the results
+            Dictionary<string, string> dList = new Dictionary<string, string> 
+            {
+                {"Audi", "Germany"},
+                {"BWM", "Germany"},
+                {"Honda", "Japan"},
+                {"Mercedes", "Germany"},
+                {"VolksWagen", "Germany"},
+                {"Tesla", "USA"},
+            };
         }
     }
 }
