@@ -16,6 +16,18 @@ namespace DecryptNumber
                 "!)(^&(#@",
                 "!)(#&%(*@#%"
             };
+
+            foreach (string number in cryptedNumbers) 
+            {
+                foreach (char digit in number) 
+                {
+                    Console.Write((int)digit);
+                }
+
+                Console.WriteLine();
+            }
+
+            Console.ReadKey(); 
         }
     }
 }
