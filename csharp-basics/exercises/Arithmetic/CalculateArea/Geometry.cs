@@ -8,19 +8,19 @@ namespace CalculateArea
 {
     public class Geometry
     {
-        public static double AreaOfCircle(decimal radius)
+        public static double AreaOfCircle(double radius)
         {
-            throw new NotImplementedException();
+            return Math.PI * radius * radius;
         }
 
         public static double AreaOfRectangle(decimal length, decimal width)
         {
-            throw new NotImplementedException();
+            return (double)length * (double)width;
         }
 
-        public static double AreaOfTriangle(decimal ground, decimal h)
+        public static double AreaOfTriangle(decimal ground, decimal height)
         {
-            throw new NotImplementedException();
+            return 0.5 * (double)ground * (double)height;
         }
     }
 }
