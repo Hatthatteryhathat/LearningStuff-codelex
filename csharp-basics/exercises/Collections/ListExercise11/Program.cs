@@ -10,19 +10,39 @@ namespace ListExercise11
     {
         static void Main(string[] args)
         {
-            //TODO: Create an List with string elements
+            List<string> colors = new List<string>();
 
-            //TODO: Add 10 values to list
+            colors.Add("Red");
+            colors.Add("Green");
+            colors.Add("Orange");
+            colors.Add("White");
+            colors.Add("Black");
+            colors.Add("Purple");
+            colors.Add("Rainbow");
+            colors.Add("Aqua");
+            colors.Add("Brown");
+            colors.Add("Yellow");
 
-            //TODO: Add new value at 5th position
+            colors.Insert(4, "Turquise");
 
-            //TODO: Change value at last position (Calculate last position programmatically)
+            int count = 0;
+            foreach (string color in colors) 
+            { 
+                count++;
+            }
 
-            //TODO: Sort your list in alphabetical order
+            colors[count - 1] = "YellowerYellow";
 
-            //TODO: Check if your list contains "Foobar" element
+            colors.Sort();
 
-            //TODO: Print each element of list using loop
+            Console.WriteLine($"List contains 'Foobar' : {colors.Exists(color => color == "Foobar")}");
+
+            for (int i = 0; i < colors.Count; i++) 
+            {
+                Console.WriteLine(colors[i]);
+            }
+
+            Console.ReadKey();
         }
     }
 }

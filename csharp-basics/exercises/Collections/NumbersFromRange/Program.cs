@@ -8,15 +8,27 @@ namespace NumbersFromRange
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             var random = new Random();
             var numbers = new List<int>();
+
             while (numbers.Count() < 10)
             {
                 numbers.Add(random.Next(1, 100));
             }
+            
+            var sortedNumbers = new List<int>();
 
-            //ToDo: Given an array of integers, write a query that returns list of numbers greater than 30 and less than 100.
+            foreach (int number in numbers) 
+            {
+                if (number > 30 && number < 100) 
+                { 
+                    sortedNumbers.Add(number);
+                }
+            }
+
+            Console.WriteLine(String.Join(", ", sortedNumbers));
+
+            Console.ReadKey();
         }
     }
 }

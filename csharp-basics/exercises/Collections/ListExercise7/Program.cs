@@ -19,7 +19,9 @@ namespace ListExercise7
                 "Black"
             };
 
-            //      TODO: Check if list contains "White" element
+            Console.WriteLine($"The list contains White : {colors.Exists(color => color == "White")}");
+
+            Console.ReadKey();
         }
     }
 }
