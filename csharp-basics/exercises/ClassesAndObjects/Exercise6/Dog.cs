@@ -31,12 +31,12 @@ namespace Exercise6
 
         public void SetMother(Dog mother) 
         {
-            this._mother = mother;
+            _mother = mother;
         }
 
         public void SetFather(Dog father)
         {
-            this._father = father;
+            _father = father;
         }
 
         public bool HasSameMotherAs(Dog otherDog) 
