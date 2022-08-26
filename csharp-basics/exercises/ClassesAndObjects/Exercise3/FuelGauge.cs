@@ -24,6 +24,5 @@ namespace Exercise3
         {
             _currentFuel--;
         }
-
     }
 }
