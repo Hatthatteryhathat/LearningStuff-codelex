@@ -13,8 +13,8 @@ namespace BankAccount
 
         public Account(string name, decimal ballance) 
         { 
-            this._name = name;
-            this._ballance = ballance;
+            _name = name;
+            _ballance = ballance;
         }
 
         public string ShowUserNameAndBalance() 
