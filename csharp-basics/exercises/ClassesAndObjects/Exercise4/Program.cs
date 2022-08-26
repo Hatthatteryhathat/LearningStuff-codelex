@@ -31,7 +31,7 @@ namespace Exercise4
             {
                 if (movieList[i].Rating == "PG") 
                 { 
-                pgMovies.Add(movieList[i]);
+                    pgMovies.Add(movieList[i]);
                 }
             }
 
