@@ -1,0 +1,19 @@
+﻿using Hierarchy_TDD.FoodTypes;
+
+namespace Hierarchy_TDD
+{
+    public abstract class Animal
+    {
+        public abstract string AnimalType { get; }
+
+        public abstract string Name { get; }
+
+        public abstract double Weight { get; }
+
+        public abstract int FoodEaten { get; }
+
+        public abstract void MakeSound();
+
+        public abstract void Eat(Food food);
+    }
+}
