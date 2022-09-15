@@ -1,6 +1,6 @@
-namespace Firm
+namespace Firm.EmplpyeeTypes
 {
-    public class Volunteer: StaffMember
+    public class Volunteer : StaffMember
     {
         //-----------------------------------------------------------------
         // Sets up a volunteer using the specified information.

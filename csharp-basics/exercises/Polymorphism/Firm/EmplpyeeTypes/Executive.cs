@@ -1,9 +1,9 @@
-namespace Firm
+namespace Firm.EmplpyeeTypes
 {
     public class Executive : Employee
     {
         private double _bonus;
-        
+
         //-----------------------------------------------------------------
         // Sets up an executive with the specified information.
         //-----------------------------------------------------------------
@@ -15,7 +15,7 @@ namespace Firm
         //-----------------------------------------------------------------
         // Awards the specified bonus to this executive.
         //-----------------------------------------------------------------
-        public void AwardBonus(double execBonus) 
+        public void AwardBonus(double execBonus)
         {
             _bonus = execBonus;
         }
@@ -24,7 +24,7 @@ namespace Firm
         // Computes and returns the pay for an executive, which is the
         // regular employee payment plus a one-time bonus.
         //-----------------------------------------------------------------
-        public override double Pay() 
+        public override double Pay()
         {
             var payment = base.Pay() + _bonus;
             _bonus = 0;
