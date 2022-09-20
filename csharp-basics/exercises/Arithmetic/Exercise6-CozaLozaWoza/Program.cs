@@ -38,14 +38,17 @@ namespace Exercise6_CozaLozaWoza
             {
                 whatToPrint = "Coza";
             }
+
             if (currentValue % 5 == 0)
             {
-                whatToPrint = whatToPrint + "Loza";
+                whatToPrint += "Loza";
             }
+
             if (currentValue % 7 == 0)
             {
-                whatToPrint = whatToPrint + "Woza";
+                whatToPrint += "Woza";
             }
+
             if(whatToPrint == "")
             {
                 whatToPrint = currentValue.ToString();

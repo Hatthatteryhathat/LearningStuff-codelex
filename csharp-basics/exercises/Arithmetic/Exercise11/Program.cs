@@ -36,8 +36,7 @@ namespace Exercise11
 
         public static bool IsPrime(int number) 
         {
-            int  halfOfNumber = 0;
-            halfOfNumber = number / 2;
+            int halfOfNumber = number / 2;
 
             for (int i = 2; i <= halfOfNumber; i++)
             {

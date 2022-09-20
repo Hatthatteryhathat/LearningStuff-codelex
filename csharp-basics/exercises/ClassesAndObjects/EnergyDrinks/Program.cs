@@ -8,28 +8,29 @@ namespace EnergyDrinks
 {
     class Program
     {
-        private const int NumberedSurveyed = 12467;
-        private const double PurchasedEnergyDrinks = 0.14;
-        private const double PreferCitrusDrinks = 0.64;
+        private const int _NumberedSurveyed = 12467;
+        private const double _PurchasedEnergyDrinks = 0.14;
+        private const double _PreferCitrusDrinks = 0.64;
 
         private static void Main(string[] args)
         {
-            //fixme
-            /*
-             Console.WriteLine("Total number of people surveyed " + NumberedSurveyed);
-             Console.WriteLine("Approximately " + energyDrinkers + " bought at least one energy drink");
-             Console.WriteLine(preferCitrus + " of those " + "prefer citrus flavored energy drinks.");
-             */
+            double energyDrinkers = CalculateEnergyDrinkers(_NumberedSurveyed , _PurchasedEnergyDrinks);
+            double preferCitrus = CalculatePreferCitrus(energyDrinkers , _PurchasedEnergyDrinks);
+
+            Console.WriteLine("Total number of people surveyed " + _NumberedSurveyed + "!");
+            Console.WriteLine("Approximately " + Math.Round(energyDrinkers, 2) + " bought at least one energy drink!");
+            Console.WriteLine(Math.Round(preferCitrus, 2) + " of those " + "prefer citrus flavored energy drinks!");
+            Console.ReadKey();
         }
 
-        double CalculateEnergyDrinkers(int numberSurveyed)
+        public static double CalculateEnergyDrinkers(int numberSurveyed, double boughtEDrinks)
         {
-            throw new Exception("Sorry, no code written :(");
+            return numberSurveyed * boughtEDrinks;
         }
 
-        double CalculatePreferCitrus(int numberSurveyed)
+        public static double CalculatePreferCitrus(double energyDrinkers, double preferCitrus)
         {
-            throw new Exception("Sorry, no code written :(");
+            return energyDrinkers * preferCitrus;
         }
     }
 }

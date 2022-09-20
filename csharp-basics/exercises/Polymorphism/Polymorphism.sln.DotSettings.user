@@ -1,0 +1,33 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\marks\AppData\Local\Temp\JetBrains\ReSharperPlatformVs17\vAny_4550c624\CoverageData\_Polymorphism.-2064990700\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1cda25af_002Da104_002D4c75_002Dbc3d_002Dc0606f60060b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FoodTypes_CreateMeatObject_ReturnMeatQuantity #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::0DAD621A-48D6-4BE5-8546-ABC7E3BBA1AC::net5.0::Hierarchy_TDD.Tests.FeedAnimalTests.FoodTypes_CreateMeatObject_ReturnMeatQuantity&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=334ceb0c_002Dde36_002D4a96_002D98dd_002D0acc9ee0d587/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FoodTypes_CreateMeatObject_ReturnMeatQuantity #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::0DAD621A-48D6-4BE5-8546-ABC7E3BBA1AC::net5.0::Hierarchy_TDD.Tests.FeedAnimalTests.FoodTypes_CreateMeatObject_ReturnMeatQuantity&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=455b7418_002D1712_002D4ba1_002Da6dd_002D882e29ca9321/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FoodTypes_CreateMeatObject_ReturnMeatQuantity #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::0DAD621A-48D6-4BE5-8546-ABC7E3BBA1AC::net5.0::Hierarchy_TDD.Tests.FeedAnimalTests.FoodTypes_CreateMeatObject_ReturnMeatQuantity&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=73114316_002Dba29_002D4374_002Db1c9_002D766cbe6b7d26/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FoodTypes_CreateMeatObject_ReturnMeatQuantity #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::0DAD621A-48D6-4BE5-8546-ABC7E3BBA1AC::net5.0::Hierarchy_TDD.Tests.FeedAnimalTests.FoodTypes_CreateMeatObject_ReturnMeatQuantity&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a28b3761_002D8803_002D4807_002D9bea_002D25867b3d2107/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b08ace38_002Dda23_002D48c8_002Da82a_002D5b7e12f50162/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ScooterCreation_IDandPricePerMinuteSetCorrectly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e4f33558_002D39ee_002D460c_002D9b55_002D6b195f360e07/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FoodTypes_CreateMeatObject_ReturnMeatQuantity" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::0DAD621A-48D6-4BE5-8546-ABC7E3BBA1AC::net5.0::Hierarchy_TDD.Tests.FeedAnimalTests.FoodTypes_CreateMeatObject_ReturnMeatQuantity&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
